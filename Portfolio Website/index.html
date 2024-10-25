@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Yash Kumar</title>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1><hr>
+        <nav>
+            <img src="https://static.vecteezy.com/system/resources/previews/004/753/030/original/portfolio-icon-shadowed-detailed-portfolio-logo-free-vector.jpg" height="25" alt="logo">
+            <button><a href="/About.html">ABOUT</a></button>
+            <button><a href="/Skills">Skills</a></button>
+            <button><a href="/Contact">Contact</a></button>
+        </nav><hr>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="media/pfp.jpg" alt="pfp" height="80">
+            <aside><p>Hi I'm Yash Kumar 
+                currently a student of IIIT Bhagalpur from CSE department
+                 and a member of Technical Team of Unnati Welfare Society </p></aside>
+        </section>
+        <section id="Skills">
+            <h2>My Skills</h2>
+            <table border="2">
+                <th>Language</th>
+                <th>Proficiency Level</th>
+                <tbody>
+                    <tr>
+                        <td>🐍 Python</td>
+                        <td>Basic 12<sup>th</sup> Level</td>
+                    </tr>
+                    <tr>
+                        <td>📅 MySQL</td>
+                        <td>Only command line operations</td>
+                    </tr>
+                    <tr>
+                        <td>©️ C Language</td>
+                        <td>Academics level</td>
+                    </tr>
+                    <tr>
+                        <td>♨️ Java</td>
+                        <td><em>Ujjwal sir padhate h🙂</em><br><em>So plis no ques here</em></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+        <section id="Media">
+            <hr>
+            <h3>I also have intrests in photography and videography</h3>
+            <h4>Here are some of Photos i clicked</h4>
+            <img src="media/img1.jpg" alt="img1" height="200">
+            <img src="media/img2.jpg" alt="img2" height="200">
+            <img src="media/img3.jpg" alt="img3" height="200">
+            <img src="media/img4.jpg" alt="img4" height="200">
+            <h4>Here is one of video i captured while i was intern of Reflection club in SIH</h4>
+            <!-- <video src="media/vid.mp4" height="200"></video> -->
+            <iframe src="media/vid.mp4" frameborder="3" width="250" height="428" autoplay="false"></iframe>
+            <h4>Here is the video which helped me in this project</h4>
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/k2DSi1zGEc8?si=RiYZMzYA7yaKm84A" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+
+        </section>
+        <section id="Contact">
+            <hr>
+            <h2>Here is my email ID and my social media handles where you can contact me :</h2>
+            <p>Email - <a href="yashnlk2005@gmail.com">yashnlk2005@gmail.com</a></p>
+            <p>Linkedin - <a href="https://www.linkedin.com/in/yash-kumar-998a12307/">www.linkedin.com/in/yash-kumar</a></p>
+            <p>Instagram - <a href="https://www.instagram.com/blaze_blaster07/">www.instagram.com/blaze_blaster07/</a></p>
+            <hr>
+        </section>
+    </main>
+    <footer>
+        <form action="submit_review.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="feedback">Feedback:</label><br>
+            <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <p>&copy; 2024 Yash Kumar. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
